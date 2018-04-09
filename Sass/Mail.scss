@@ -1,0 +1,126 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto');
+@import url( 'https://fonts.googleapis.com/css?family=Lato|Roboto');
+@import url( 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700');
+
+.mail-list-element {
+  &:hover {
+    background: #FFFF66;
+    color: black;
+  }
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  border-radius: 30px;
+  color: #9D9C92;
+  margin-top: 10px;
+}
+
+.single_message {
+  margin: 10px;
+}
+
+.from-date_container {
+  & .date {
+    font-style: italic;
+    color: #D4999E;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-content: flex-end;
+  -ms-flex-line-pack: end;
+  align-content: flex-end;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding: 20px 25px 15px 15px;
+}
+
+.mail_from {
+  color: #D4999E;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.mail-title_cointainer {
+  color: #D4999E;
+  padding: 0 0 20px 15px;
+}
+
+.mail-text_container {
+  & p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    font-size: 15px;
+  }
+  padding: 0 15px 20px;
+  color: #873940;
+  line-height: 10px;
+  font-size: 13px;
+  max-width: 700px;
+}
+
+.unread {
+  background: #99D4CE;
+
+  & .mail_from {
+    font-weight: 500;
+    color: #873940;
+  }
+
+  & .date {
+    font-weight: 500;
+    color: #873940;
+  }
+
+  & .mail-title_cointainer {
+    color: #873940;
+  }
+}
+
+.single_message {
+  position: relative;
+  display: inline-block;
+}
+
+.menu-dropdown {
+  display: none;
+  position: absolute;
+  background-color: #FADADD;
+  padding: 10px 0;
+  border-radius: 30px;
+  z-index: 1;
+  top: -10px;
+  height: 100%;
+  width: 10%;
+  right: -10px;
+}
+
+.single_message:hover .menu-dropdown {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-dropdown img {
+  width: 73%;
+  top: 5px;
+}
+
+.menu-dropdown img:hover{
+  opacity: 0.5;
+}

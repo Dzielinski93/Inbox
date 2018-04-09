@@ -1,0 +1,34 @@
+.mail_list{
+  display: flex;
+  flex-direction: row;
+}
+
+.folder, .new_message, .sent_messages{
+  width: 80px;
+  height: 80px;
+  padding: 10px 10px 10px 10px;
+}
+
+.folder:hover{
+  opacity: 0.5;
+}
+
+.new_message:hover{
+  opacity: 0.5;
+}
+
+
+.sent_messages:hover{
+  opacity: 0.5;
+}
+
+
+.inbox_buttons{
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  background: #6796B0;
+  margin:5px;
+  margin-top: 10px;
+  margin-right: 10px;
+}

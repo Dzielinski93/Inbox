@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Rouge+Script');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+#margin {
+	margin-left:12px;
+	margin-bottom:20px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+#text {
+	width:500px;
+	overflow:hidden;
+	background-color:#FFF;
+	color:#222;
+	font-family:Courier, monospace;
+	// font-family: 'Indie Flower';
+	font-weight:normal;
+	font-size:24px;
+	resize:none;
+	line-height:40px;
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:45px;
+	padding-bottom:34px;
+	background-image:url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+	background-repeat:repeat-y, repeat;
+	-webkit-border-radius:12px;
+	border-radius:40px;
+	-webkit-box-shadow: 0px 2px 14px #000;
+	box-shadow: 0px 2px 14px #000;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+}
+#title {
+	background-color:transparent;
+	border-bottom:3px solid #FFF;
+	color:#FFF;
+	font-size:17px;
+	font-family:Courier, monospace;
+	height:28px;
+	font-weight:bold;
+	width:220px;
+	margin-left: 8px;
+  margin-top: 5px;
+}
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+	 margin-top: 11px;
+}
+
+.blue {
+  background-color: #3b8ec2;
+}
+
+.blue select {
+	color: #fff;
+}
+
+
+.semi-square {
+	-webkit-border-radius: 20px;
+   -moz-border-radius:20px;
+   border-radius: 20px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 17px;
+	 font-family: Courier, monospace;
+	 font-weight: bold;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.send-button {
+ font-family: 'Rouge Script', cursive;
+ width: 25%;
+ font-size: 40px;
+ line-height: 65px;
+ margin: 15px;
+ border-radius: 30px;
+}
+
+.send-button:hover {
+	background-color: #3b8ec2;
+}
+
+.new-mail-text {
+  display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+}
